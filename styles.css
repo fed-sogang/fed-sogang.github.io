@@ -481,6 +481,7 @@ a {
   color: var(--muted);
   font-size: 16px;
   line-height: 1.45;
+  text-align: justify;
 }
 
 .contact-copy {
