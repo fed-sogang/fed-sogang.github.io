@@ -95,10 +95,6 @@ a {
 .home-main {
   flex: 1;
   min-height: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: var(--home-section-gap);
   padding-top: var(--home-edge-gap);
   padding-bottom: var(--home-edge-gap);
 }
@@ -257,7 +253,9 @@ a {
 }
 
 .site-footer-home .footer-text {
-  max-width: 610px;
+  max-width: none;
+  white-space: nowrap;
+  font-size: clamp(10px, 1.28vw, 16px);
 }
 
 .site-footer {
@@ -587,6 +585,11 @@ a {
     gap: 12px;
   }
 
+  .site-footer-home .footer-text {
+    white-space: nowrap;
+    font-size: clamp(10px, 1.9vw, 14px);
+  }
+
   .contact-main {
     padding-bottom: 26px;
   }
@@ -689,6 +692,10 @@ a {
 
   .site-footer-home .footer-icons {
     width: 92px;
+  }
+
+  .site-footer-home .footer-text {
+    font-size: clamp(9px, 2.5vw, 12px);
   }
 
   .section.tab-gap {
