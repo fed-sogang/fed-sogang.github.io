@@ -557,20 +557,20 @@ a {
 }
 
 .profile-main {
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 
 .profile-hero {
   display: grid;
-  grid-template-columns: 258px minmax(0, 1fr);
-  gap: 56px;
+  grid-template-columns: 252px minmax(0, 1fr);
+  gap: 48px;
   align-items: start;
 }
 
 .profile-name {
-  margin: 0 0 18px;
-  font-size: clamp(24px, 2.6vw, 32px);
-  line-height: 1.08;
+  margin: 0 0 16px;
+  font-size: clamp(18px, 2.1vw, 26px);
+  line-height: 1.1;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
@@ -588,13 +588,13 @@ a {
 
 .profile-pronunciation {
   margin: 0 0 4px;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--ink);
 }
 
 .profile-role {
   margin: 0 0 4px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -604,30 +604,30 @@ a {
   flex-direction: column;
   gap: 2px;
   color: var(--ink);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.35;
 }
 
 .profile-side-section {
-  margin-top: 42px;
+  margin-top: 34px;
 }
 
 .profile-side-icon {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   object-fit: contain;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .profile-copy {
-  padding-top: 34px;
-  max-width: 880px;
+  padding-top: 14px;
+  max-width: 820px;
 }
 
 .profile-copy p {
-  margin: 0 0 34px;
-  font-size: 18px;
-  line-height: 1.52;
+  margin: 0 0 28px;
+  font-size: 15px;
+  line-height: 1.48;
   color: var(--ink);
 }
 
@@ -636,7 +636,7 @@ a {
 }
 
 .profile-lede {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -657,13 +657,13 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 152px;
-  padding: 14px 20px;
+  min-width: 132px;
+  padding: 10px 18px;
   background: #ffffff;
   color: var(--ink);
   border: 1px solid #d6d0dc;
-  border-radius: 14px;
-  font-size: 16px;
+  border-radius: 12px;
+  font-size: 14px;
   font-weight: 500;
   transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease;
 }
@@ -689,7 +689,7 @@ a {
 }
 
 .profile-teaching li {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.35;
 }
 
@@ -777,7 +777,7 @@ a {
 
   .profile-hero {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 24px;
   }
 
   .profile-copy {
@@ -933,7 +933,7 @@ a {
   }
 
   .profile-name {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .profile-image {
@@ -943,7 +943,7 @@ a {
   .profile-copy p,
   .profile-button,
   .profile-teaching li {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.42;
   }
 
