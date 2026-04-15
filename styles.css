@@ -367,6 +367,20 @@ a {
   margin-bottom: 0;
 }
 
+.pub-entry-venue a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: background-color 140ms ease, color 140ms ease;
+}
+
+.pub-entry-venue a:hover,
+.pub-entry-venue a:focus-visible {
+  background: #f1eef4;
+  color: var(--ink);
+  outline: none;
+}
+
 .pub-source {
   margin-top: 8px;
   color: var(--muted);
